@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <!-- Social Auth Config for Android -->
+  <auth>
+    <auth-config if="facebook">
+      <client-id></client-id>
+      <scope></scope>
+      <authorize-url></authorize-url>
+      <redirect-url></redirect-url>
+    </auth-config>
+  </auth>
+</config>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <!-- Social Auth Config for Android -->
+  <auth>
+    <auth-config id="facebook">
+      <client-id>643681969125693</client-id>
+      <scope>public_profile</scope>
+      <authorize-url>https://m.facebook.com/dialog/oauth/</authorize-url>
+      <redirect-url>http://www.facebook.com/connect/login_success.html</redirect-url>
+    </auth-config>
+  </auth>
+</config>

@@ -38,6 +38,7 @@ namespace SocialTest.Droid
 
             Mvx.ConstructAndRegisterSingleton<IConfigService, ConfigService>();
             Mvx.ConstructAndRegisterSingleton<IConfigManager, ConfigManager>();
+            // Setting the device as android
             Mvx.Resolve<IConfigManager>().Device = Device.ANDROID;
         }
     }

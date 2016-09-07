@@ -1,8 +1,5 @@
 ﻿using SocialTest.Core.Business.Service.Interfaces;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using SocialTest.Core.Models.ServiceModels;
 using SocialTest.Core.Models;
@@ -14,6 +11,11 @@ namespace SocialTest.Core.Business.Service
 {
     public class ConfigService : IConfigService
     {
+        /// <summary>
+        /// Method to get the config as per the device passed. 
+        /// </summary>
+        /// <param name="device">A value from <see cref="Device"/> enum.</param>
+        /// <returns>A <see cref="ConfigResponse"/> object.</returns>
         public async Task<ConfigResponse> GetConfig(Device device)
         {
             var type = this.GetType();
